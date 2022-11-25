@@ -229,7 +229,7 @@ footer h3 {
   margin: 6px;
 } */
 
-/* home media/responsive */
+/* home   media/responsive */
 @media (max-width:500px){
  header nav{
   display: inline-block;
