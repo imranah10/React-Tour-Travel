@@ -7,7 +7,7 @@ export const Contact = () => {
         <h1 className="contact-Heading-name">Contact us</h1>
       </div>
       <div className="Contact-Main">
-        <div>
+        <div className="contactForm">
           <form>
             <input type="text" placeholder="YourName"></input>
             <input type="number" placeholder="Number"></input>
@@ -17,7 +17,7 @@ export const Contact = () => {
               <option value="America">America</option>
             </select>
             <textarea type="text" placeholder="Write About Yourself"></textarea>
-            <button>Submit</button>
+            <button className="cBtn">Submit</button>
           </form>
         </div>
         <div className="contact-Map">
